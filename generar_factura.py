@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 import os
 
 # Ruta absoluta del archivo Excel
-excel_path = r"C:\Users\sergi\Desktop\proyecto rpa\facturas.xlsx"
+excel_path = "Tu-ruta-a-facturas.xlsx"
 print(f"📄 Ruta del Excel: {excel_path}")
 
 # Verificar si el archivo Excel existe antes de cargarlo
@@ -37,7 +37,7 @@ def generar_factura_pdf(empresa, direccion, productos, cantidades, precios, iva,
         c.setTitle(f"Factura {factura_num}")
 
         # Ruta del logo (ajústala según la ubicación real del archivo)
-        logo_path = r"C:\Users\sergi\Desktop\proyecto rpa\489.jpg"
+        logo_path = "tu-ruta-a-proyecto rpa\489.jpg"
 
         # **Dibujar el logo en la parte superior izquierda**
         if os.path.exists(logo_path):
