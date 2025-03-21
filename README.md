@@ -27,7 +27,7 @@ Puedes instalarlas usando `pip`
 ## Uso
 
 1. Coloca el archivo `facturas.xlsx` en la ruta especificada en el script (puedes modificar la ruta del archivo en el código según sea necesario).
-2. Ejecuta el script `script.py` para generar las facturas en formato PDF.
+2. Ejecuta el script `generar_factura.py` para generar las facturas en formato PDF.
 3. Las facturas se guardarán en una carpeta llamada `facturas_generadas` en el mismo directorio donde se ejecuta el script.
 
 ## Descripción del Código
