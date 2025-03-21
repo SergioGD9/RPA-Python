@@ -22,7 +22,7 @@ Puedes instalarlas usando `pip`
   - **Cantidad**: Cantidad de productos vendidos.
   - **Precio Unitario (€)**: Precio unitario de los productos.
   - **IVA (%)**: Porcentaje de IVA aplicado a la factura.
-- `script.py`: Script principal que lee el archivo Excel, procesa los datos y genera las facturas en formato PDF.
+- `generar_factura.py`: Script principal que lee el archivo Excel, procesa los datos y genera las facturas en formato PDF.
 
 ## Uso
 
