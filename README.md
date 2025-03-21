@@ -11,7 +11,5 @@ Asegúrate de tener instaladas las siguientes librerías:
 - `pandas`: Para leer y manejar los datos del archivo Excel.
 - `reportlab`: Para generar los archivos PDF.
 
-Puedes instalarlas usando `pip`:
-
-```bash
+Puedes instalarlas usando `pip`
 
